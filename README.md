@@ -20,5 +20,4 @@ It includes writing and executing automated test scenarios to ensure the functio
 - ✅ The tests are structured using TestNG for better management and reporting.
 - 🌐 Selenium is used to interact with web elements on the site.
 
-## 👤 Author
-- [Thu Alkfl Rababa'h]
+
