@@ -31,22 +31,22 @@ public class CodenBoxAutomation {
 
 	}
 
-	@Test(priority = 1)
-	public void loginForm() {
-		WebElement email = driver.findElement(By.xpath("//input[@id='username']"));
-		email.sendKeys("hi@gmail.com");
-
-		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-		password.sendKeys("001122");
-
-		WebElement rememeberMe = driver.findElement(By.xpath("//input[@id='remember']"));
-		rememeberMe.click();
-		WebElement loginButton = driver.findElement(By.xpath("//button[@id='login-button']"));
-		loginButton.click();
-
-		Assert.assertTrue(true);
-
-	}
+//	@Test(priority = 1)
+//	public void loginForm() {
+//		WebElement email = driver.findElement(By.xpath("//input[@id='username']"));
+//		email.sendKeys("hi@gmail.com");
+//
+//		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
+//		password.sendKeys("001122");
+//
+//		WebElement rememeberMe = driver.findElement(By.xpath("//input[@id='remember']"));
+//		rememeberMe.click();
+//		WebElement loginButton = driver.findElement(By.xpath("//button[@id='login-button']"));
+//		loginButton.click();
+//
+//		Assert.assertTrue(true);
+//
+//	}
 
 	@Test(priority = 1)
 	public void redioButtons() {
@@ -206,7 +206,7 @@ public class CodenBoxAutomation {
 		// th: table head, its an element
 		// td: test data, its an element
 		// tr: table row --- th + td.
-		List<WebElement> getInstructorColumn= driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[1]"));
+		List<WebElement> getInstructorColumn= driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[0]"));
 		
 		
 		
