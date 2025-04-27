@@ -191,9 +191,7 @@ public class CodenBoxAutomation {
 	@Test(priority = 10)
 	public void tableTest() {
 		WebElement table = driver.findElement(By.xpath("//table[@id='product']"));
-		// th: table head, its an element
-		// td: test data, its an element
-		// tr: table row --- th + td.
+		
 		List<WebElement> allRows = table.findElements(By.tagName("td"));
 		for (int i = 0; i < allRows.size(); i++) {
 			System.out.println(allRows.get(i).getText());
