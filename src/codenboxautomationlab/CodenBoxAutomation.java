@@ -206,7 +206,7 @@ public class CodenBoxAutomation {
 		// th: table head, its an element
 		// td: test data, its an element
 		// tr: table row --- th + td.
-		List<WebElement> getInstructorColumn= driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[0]"));
+		List<WebElement> getInstructorColumn= driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[1]"));
 		
 		
 		
