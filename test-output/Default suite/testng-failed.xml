@@ -5,8 +5,8 @@
     <classes>
       <class name="codenboxautomationlab.CodenBoxAutomation">
         <methods>
-          <include name="loginForm"/>
           <include name="endTest"/>
+          <include name="hideAndShowButtonTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- codenboxautomationlab.CodenBoxAutomation -->

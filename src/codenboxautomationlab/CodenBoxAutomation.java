@@ -7,6 +7,7 @@ import java.util.Random;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -103,7 +104,7 @@ public class CodenBoxAutomation {
 		System.out.println(checkBoxes.size());
 //		dropDown.selectByIndex(ra);
 //		System.out.println(ra);
-		
+
 	}
 
 	@Test(priority = 5)
@@ -119,7 +120,7 @@ public class CodenBoxAutomation {
 		System.out.println(checkBoxes.size());
 //		dropDown.selectByIndex(ra);
 //		System.out.println(ra);
-		
+
 	}
 
 	@Test(priority = 6)
@@ -129,7 +130,7 @@ public class CodenBoxAutomation {
 		int ra = random.nextInt(checkBoxes.size());
 		checkBoxes.get(ra).click();
 		System.out.println("check box Number: " + ra);
-		
+
 	}
 
 	@Test(priority = 7)
@@ -191,50 +192,59 @@ public class CodenBoxAutomation {
 	@Test(priority = 10)
 	public void tableTest() {
 		WebElement table = driver.findElement(By.xpath("//table[@id='product']"));
-		
+
 		List<WebElement> allRows = table.findElements(By.tagName("td"));
 		for (int i = 0; i < allRows.size(); i++) {
 			System.out.println(allRows.get(i).getText());
 		}
 
 	}
+
 	@Test(priority = 11)
 	public void getOnlyInstructorName() {
-		//WebElement table = driver.findElement(By.xpath("//table[@id='product']"));
+		// WebElement table = driver.findElement(By.xpath("//table[@id='product']"));
 		// th: table head, its an element
 		// td: test data, its an element
 		// tr: table row --- th + td.
-		List<WebElement> getInstructorColumn= driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[1]"));
-		
-		
-		
-		
-
-		
-		
-		
+		List<WebElement> getInstructorColumn = driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[1]"));
 		for (int i = 0; i < getInstructorColumn.size(); i++) {
 			System.out.println(getInstructorColumn.get(i).getText());
 		}
 
 	}
+
 	@Test(priority = 12)
 	public void getOnlyCourseName() {
-				List<WebElement> getCourseColumn= driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[2]"));
+		List<WebElement> getCourseColumn = driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[2]"));
 		for (int i = 0; i < getCourseColumn.size(); i++) {
 			System.out.println(getCourseColumn.get(i).getText());
 		}
 
 	}
+
 	@Test(priority = 13)
 	public void getOnlyPricee() {
-				List<WebElement> getPriceColumn= driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[3]"));
+		List<WebElement> getPriceColumn = driver.findElements(By.xpath("//*[@id=\"product\"]/tbody/tr/td[3]"));
 		for (int i = 0; i < getPriceColumn.size(); i++) {
 			System.out.println(getPriceColumn.get(i).getText());
 		}
 
 	}
-	
+
+	@Test(priority = 14)
+	public void hideAndShowButtonTest() throws InterruptedException {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0,1500)");
+		WebElement hideButton = driver.findElement(By.xpath("//input[@id='hide-textbox']"));
+		
+		WebElement showButton = driver.findElement(By.xpath("//input[@id='show-textbox']"));
+
+		hideButton.click();
+		Thread.sleep(2000);
+		showButton.click();
+
+	}
+
 	@AfterTest
 	public void endTest() throws InterruptedException {
 		Thread.sleep(3000);
