@@ -1,95 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٣٤ EET" name="Default suite" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:١٦ EET" duration-ms="41429">
+  <suite started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٢٢ EET" name="Default suite" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣٧ EET" duration-ms="14893">
     <groups>
     </groups>
-    <test started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٣٤ EET" name="Default test" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:١٦ EET" duration-ms="41429">
+    <test started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٢٢ EET" name="Default test" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣٧ EET" duration-ms="14893">
       <class name="codenboxautomationlab.CodenBoxAutomation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٣٤ EET" name="setup" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٠ EET" duration-ms="5852" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:codenboxautomationlab.CodenBoxAutomation@23fb172e]" started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٢٢ EET" name="setup" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٢٧ EET" duration-ms="4747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="redioButtons()[pri:1, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٠ EET" name="redioButtons" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٠ EET" duration-ms="70" status="PASS">
+        <test-method signature="enableAnddisableButtonTest()[pri:15, instance:codenboxautomationlab.CodenBoxAutomation@23fb172e]" started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٢٧ EET" name="enableAnddisableButtonTest" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٢٩ EET" duration-ms="2118" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- redioButtons -->
-        <test-method signature="autoCompleteSelectCountry()[pri:2, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٠ EET" name="autoCompleteSelectCountry" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" duration-ms="3583" status="PASS">
+        </test-method> <!-- enableAnddisableButtonTest -->
+        <test-method signature="mouseHoverTest()[pri:16, instance:codenboxautomationlab.CodenBoxAutomation@23fb172e]" started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٢٩ EET" name="mouseHoverTest" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣١ EET" duration-ms="2248" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autoCompleteSelectCountry -->
-        <test-method signature="dropDownButtonRandomSelectTest()[pri:3, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" name="dropDownButtonRandomSelectTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" duration-ms="112" status="PASS">
+        </test-method> <!-- mouseHoverTest -->
+        <test-method signature="bookCalenderTest()[pri:17, instance:codenboxautomationlab.CodenBoxAutomation@23fb172e]" started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣١ EET" name="bookCalenderTest" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣٤ EET" duration-ms="2447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropDownButtonRandomSelectTest -->
-        <test-method signature="selectAllCheckBoxesTest()[pri:4, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" name="selectAllCheckBoxesTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectAllCheckBoxesTest -->
-        <test-method signature="deSelectAllCheckBoxesTest()[pri:5, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" name="deSelectAllCheckBoxesTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deSelectAllCheckBoxesTest -->
-        <test-method signature="selectRandomCheckBoxeTest()[pri:6, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" name="selectRandomCheckBoxeTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectRandomCheckBoxeTest -->
-        <test-method signature="switchWindowTest()[pri:7, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٤٤ EET" name="switchWindowTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٥٧ EET" duration-ms="12326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switchWindowTest -->
-        <test-method signature="switchTapsTest()[pri:8, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٤:٥٧ EET" name="switchTapsTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٤ EET" duration-ms="7144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switchTapsTest -->
-        <test-method signature="AlertDialogTest()[pri:9, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٤ EET" name="AlertDialogTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٧ EET" duration-ms="3120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AlertDialogTest -->
-        <test-method signature="AlertDialogTestConfirm()[pri:9, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٧ EET" name="AlertDialogTestConfirm" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" duration-ms="2120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AlertDialogTestConfirm -->
-        <test-method signature="tableTest()[pri:10, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" name="tableTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" duration-ms="226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tableTest -->
-        <test-method signature="getOnlyInstructorName()[pri:11, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" name="getOnlyInstructorName" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getOnlyInstructorName -->
-        <test-method signature="getOnlyCourseName()[pri:12, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" name="getOnlyCourseName" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getOnlyCourseName -->
-        <test-method signature="getOnlyPricee()[pri:13, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" name="getOnlyPricee" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getOnlyPricee -->
-        <test-method signature="hideAndShowButtonTest()[pri:14, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:٠٩ EET" name="hideAndShowButtonTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:١٣ EET" duration-ms="3067" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- bookCalenderTest -->
+        <test-method signature="iFrameTest()[pri:18, instance:codenboxautomationlab.CodenBoxAutomation@23fb172e]" started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣٤ EET" name="iFrameTest" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣٤ EET" duration-ms="52" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='hide-textbox']"}
+              <![CDATA[no such frame
   (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74f774393827f1c9232305997cdad28c, findElement {using=xpath, value=//table[@id='hide-textbox']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63558/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74f774393827f1c9232305997cdad28c]]>
+Command: [2973613b0cbd90136f96fa92f30af9b3, switchToFrame {id={element-6066-11e4-a52e-4f735466cecf=f.2A68513B471C9698A36A32DC7C07420D.d.3C7A32A78A4FC06A718D7A7F7C7DD3A3.e.67}}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50636/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2973613b0cbd90136f96fa92f30af9b3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='hide-textbox']"}
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: no such frame
   (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74f774393827f1c9232305997cdad28c, findElement {using=xpath, value=//table[@id='hide-textbox']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63558/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74f774393827f1c9232305997cdad28c
+Command: [2973613b0cbd90136f96fa92f30af9b3, switchToFrame {id={element-6066-11e4-a52e-4f735466cecf=f.2A68513B471C9698A36A32DC7C07420D.d.3C7A32A78A4FC06A718D7A7F7C7DD3A3.e.67}}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50636/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2973613b0cbd90136f96fa92f30af9b3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -100,11 +54,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at codenboxautomationlab.CodenBoxAutomation.hideAndShowButtonTest(CodenBoxAutomation.java:238)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1138)
+at codenboxautomationlab.CodenBoxAutomation.iFrameTest(CodenBoxAutomation.java:307)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -133,11 +84,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hideAndShowButtonTest -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:codenboxautomationlab.CodenBoxAutomation@4fce136b]" started-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:١٣ EET" name="endTest" finished-at="٢٠٢٥-٠٤-٢٨T٢٣:٥٥:١٦ EET" duration-ms="3251" status="PASS">
+        </test-method> <!-- iFrameTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:codenboxautomationlab.CodenBoxAutomation@23fb172e]" started-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣٤ EET" name="endTest" finished-at="٢٠٢٥-٠٤-٣٠T١٧:٤٦:٣٧ EET" duration-ms="3249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

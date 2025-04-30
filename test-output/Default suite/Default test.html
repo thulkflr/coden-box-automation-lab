@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 28 23:54:34 EET 2025</td>
+<td>Started on:</td><td>Wed Apr 30 17:46:22 EET 2025</td>
 </tr>
-<tr><td>Total time:</td><td>41 seconds (41429 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14893 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.hideAndShowButtonTest()'><b>hideAndShowButtonTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;hide-textbox&apos;]&quot;}
+<td title='codenboxautomationlab.CodenBoxAutomation.iFrameTest()'><b>iFrameTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
+<td><div><pre>org.openqa.selenium.NoSuchFrameException: no such frame
   (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74f774393827f1c9232305997cdad28c, findElement {using=xpath, value=//table[@id=&apos;hide-textbox&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63558/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74f774393827f1c9232305997cdad28c
+Command: [2973613b0cbd90136f96fa92f30af9b3, switchToFrame {id={element-6066-11e4-a52e-4f735466cecf=f.2A68513B471C9698A36A32DC7C07420D.d.3C7A32A78A4FC06A718D7A7F7C7DD3A3.e.67}}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50636/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2973613b0cbd90136f96fa92f30af9b3
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -96,11 +95,8 @@ Session ID: 74f774393827f1c9232305997cdad28c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at codenboxautomationlab.CodenBoxAutomation.hideAndShowButtonTest(CodenBoxAutomation.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1138)
+	at codenboxautomationlab.CodenBoxAutomation.iFrameTest(CodenBoxAutomation.java:307)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -127,16 +123,15 @@ Session ID: 74f774393827f1c9232305997cdad28c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2115640742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2115640742'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;hide-textbox&apos;]&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace2144644334", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2144644334'><pre>org.openqa.selenium.NoSuchFrameException: no such frame
   (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74f774393827f1c9232305997cdad28c, findElement {using=xpath, value=//table[@id=&apos;hide-textbox&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63558/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74f774393827f1c9232305997cdad28c
+Command: [2973613b0cbd90136f96fa92f30af9b3, switchToFrame {id={element-6066-11e4-a52e-4f735466cecf=f.2A68513B471C9698A36A32DC7C07420D.d.3C7A32A78A4FC06A718D7A7F7C7DD3A3.e.67}}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\thoth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50636/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2973613b0cbd90136f96fa92f30af9b3
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -147,11 +142,8 @@ Session ID: 74f774393827f1c9232305997cdad28c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at codenboxautomationlab.CodenBoxAutomation.hideAndShowButtonTest(CodenBoxAutomation.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1138)
+	at codenboxautomationlab.CodenBoxAutomation.iFrameTest(CodenBoxAutomation.java:307)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -179,8 +171,8 @@ Session ID: 74f774393827f1c9232305997cdad28c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>3</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
+<td>0</td>
+<td>codenboxautomationlab.CodenBoxAutomation@23fb172e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -191,75 +183,20 @@ Session ID: 74f774393827f1c9232305997cdad28c
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.deSelectAllCheckBoxesTest()'><b>deSelectAllCheckBoxesTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.AlertDialogTestConfirm()'><b>AlertDialogTestConfirm</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
+<td title='codenboxautomationlab.CodenBoxAutomation.enableAnddisableButtonTest()'><b>enableAnddisableButtonTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
 <td></td>
 <td>2</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
+<td>codenboxautomationlab.CodenBoxAutomation@23fb172e</td></tr>
 <tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.dropDownButtonRandomSelectTest()'><b>dropDownButtonRandomSelectTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
+<td title='codenboxautomationlab.CodenBoxAutomation.bookCalenderTest()'><b>bookCalenderTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
 <td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
+<td>2</td>
+<td>codenboxautomationlab.CodenBoxAutomation@23fb172e</td></tr>
 <tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.getOnlyInstructorName()'><b>getOnlyInstructorName</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
+<td title='codenboxautomationlab.CodenBoxAutomation.mouseHoverTest()'><b>mouseHoverTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
 <td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.switchTapsTest()'><b>switchTapsTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>7</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.selectAllCheckBoxesTest()'><b>selectAllCheckBoxesTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.getOnlyPricee()'><b>getOnlyPricee</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.redioButtons()'><b>redioButtons</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.tableTest()'><b>tableTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.switchWindowTest()'><b>switchWindowTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>12</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.AlertDialogTest()'><b>AlertDialogTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>3</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.selectRandomCheckBoxeTest()'><b>selectRandomCheckBoxeTest</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.getOnlyCourseName()'><b>getOnlyCourseName</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>0</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
-<tr>
-<td title='codenboxautomationlab.CodenBoxAutomation.autoCompleteSelectCountry()'><b>autoCompleteSelectCountry</b><br>Test class: codenboxautomationlab.CodenBoxAutomation</td>
-<td></td>
-<td>3</td>
-<td>codenboxautomationlab.CodenBoxAutomation@4fce136b</td></tr>
+<td>2</td>
+<td>codenboxautomationlab.CodenBoxAutomation@23fb172e</td></tr>
 </table><p>
 </body>
 </html>

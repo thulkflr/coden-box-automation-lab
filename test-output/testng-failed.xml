@@ -6,7 +6,7 @@
       <class name="codenboxautomationlab.CodenBoxAutomation">
         <methods>
           <include name="endTest"/>
-          <include name="hideAndShowButtonTest"/>
+          <include name="iFrameTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- codenboxautomationlab.CodenBoxAutomation -->
